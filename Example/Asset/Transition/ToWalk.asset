@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f1a176fcfd7de49aee17fc01fa736b, type: 3}
+  m_Name: ToWalk
+  m_EditorClassIdentifier: 
+  _conditions:
+  - {fileID: 11400000, guid: 88150a88d0f445746895b0f6fcf76467, type: 2}
+  _stateOnSuccess: {fileID: 11400000, guid: ef744a23d48d08b47876b0998fea8384, type: 2}
+  _stateOnFailure: {fileID: 0}
