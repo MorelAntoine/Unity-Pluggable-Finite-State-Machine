@@ -123,7 +123,7 @@ namespace UniCraft.PluggableFiniteStateMachine
         /// <summary>
         /// Display the registered transition: previous to current
         /// </summary>
-        public void DisplayTransitionLog()
+        private void DisplayTransitionLog()
         {
             Debug.Log(PreviousState.GetType().Name + " --> " + CurrentState.GetType().Name);
         }
